@@ -1,0 +1,48 @@
+body {
+	background-color: #ed09cf;
+}
+header {
+	background-color: #941383;
+	background-image: url("dirtbike.PNG");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 119px; 
+	padding: 5px;
+	padding-left: 20px;
+}
+footer {
+	background-color: #e381d6;
+	color:purple;
+}
+ul {
+	list-style-position: inside;
+}
+#content {
+	background-color: #7d1970;
+	padding: 15px;
+	min-height: 250px;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color:black;
+	font-size: 300%;
+	font-family: cambria,courier;
+}
+h2 {
+	color:black;
+	font-family: Verdana,Arial;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
